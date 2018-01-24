@@ -1,10 +1,11 @@
-# Offline tool to verify your EOS private key and map to public key
+# Offline tool to verify your EOS private key and mapping to public key
 
 Simple tool to verify your EOS key and find out the public key. This was requested by several users and something we created while waiting for EOS Dawn 3.0.
 
 ## Using the tool
 
 1) Click on clone or download on this Github page. Then download zip.
+[![Offline EOS private key tool](https://i.imgur.com/rO1mKyy.png)](https://i.imgur.com/rO1mKyy.png)
 2) Extract the zip file
 3) Turn your computer offline
 4) Open index.html on any browser. It will look like the screenshot below 
