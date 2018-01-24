@@ -5,7 +5,7 @@ Simple tool to verify your EOS key and find out the public key. This was request
 ## Using the tool
 
 1) Click on clone or download on this Github page. Then download zip.
-[![Offline EOS private key tool](https://i.imgur.com/rO1mKyy.png)](https://i.imgur.com/rO1mKyy.png)
+[![Offline EOS private key tool](https://i.imgur.com/uv59i9G.png)](https://i.imgur.com/uv59i9G.png)
 2) Extract the zip file
 3) Turn your computer offline
 4) Open index.html on any browser. It will look like the screenshot below 
