@@ -18,6 +18,7 @@ Simple tool to verify your EOS key and find out the public key. This was request
 - Contributions / any bug fixes are welcome. 
 - All code is available for review and run offline. 
 - No guarantees or accuracy on using this tool.
+- Maintained by [Webdigi in London](https://www.webdigi.co.uk)
 
 ### Test EOS public & private keys
 **Public key**: EOS8HuvjfQeUS7tMdHPPrkTFMnEP7nr6oivvuJyNcvW9Sx5MxJSkZ
