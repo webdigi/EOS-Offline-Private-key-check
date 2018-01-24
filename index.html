@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang=en>
+    <meta charset=utf-8>
+    <title>EOS verify your private key</title>
+    <link rel=stylesheet href="index.css">
+
+    <script src=ecc.js></script>
+    <script src=lib.js></script>
+    <script src=index.js></script>
+    <body>
+        <div>
+            <h1>Offline tool to verify your EOS private key and map to public key</h1>
+            <p>Steps to running this tool with peace of mind!<br>
+                1. Turn your device offline. This page will work without an internet connection.<br>
+                2. Paste your EOS private key and then click on "Map to EOS public key"<br>
+                3. Your EOS private key and corresponding public key will show up. All done! You can close this page and then turn on internet connection :)
+            </p>
+            <p>Other info and resources<br>
+                - Register your EOS public key before EOS mainnet launch. You can use <a href="https://eosauthority.com/" target="_blank">EOSauthority</a> to check<br>
+                - Review <a href="https://github.com/webdigi/" target="_blank">code for this tool on github</a>. Contact us at <a href="mailto:eos@webdigi.co.uk">eos@webdigi.co.uk</a>
+            </p>
+            <strong> If you found this helpful please consider making a small donation of ETH / EOS to (ETH): 0xcEB732fC5A68CAFc8fE672072b9CB2DFbfDe60dd </strong>
+            <div>
+                <div class="pane">
+                    <table><tbody>
+                            <tr>
+                                <th>EOS private key</th>
+                                <td style="text-align: left;">
+                                    <input style="width: 500px;" type="text" name="privKey" id="privKey" required>&nbsp;
+                                    <span><a href="#" id="generate-link" style="float: right;" onclick="generate()">Map to EOS public key</a></span>
+                                </td>
+                            </tr></tbody>
+                    </table>
+                </div>
+                <div class="hidden pane" id="generate-pane">
+                    <span id="generate-progress">
+                        Maping your private key to public key...
+                    </span>
+                    <div id="generate-confirm" class="hidden">
+                        <section id="generate-register">
+                            <h3>EOS public and private key</h3>
+                        </section>
+                        <p>Your private key maps to the public key as shown below</p>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Public key</th>
+                                    <td style="text-align: left;">
+                                        <code id="generate-pubkey" style="width: 30em;"></code>
+                                    </td>
+                                    <td style="text-align: left;">
+                                        <code id="generate-pubkey-error" style="width: 30em;"></code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Private key</th>
+                                    <td style="text-align: left;">
+                                        <code id="generate-privkey" style="width: 30em;"></code>
+                                    </td>
+                                    <td style="text-align: left;">
+                                        <code id="generate-privkey-error" style="width: 30em;"></code>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
+
+
