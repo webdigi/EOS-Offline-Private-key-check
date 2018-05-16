@@ -1,6 +1,6 @@
 # Offline tool to verify your EOS private key and mapping to public key
 
-Simple tool to verify your EOS key and find out the public key. This was requested by several users and something we created while waiting for EOS Dawn 3.0.
+Simple tool to verify your EOS key and find out the public key. This was requested by several users and something we created while waiting for EOS Dawn 3.0. This tool is brought to you by the [EOS block producer candidate - EOS Authority](https://eosauthority.com). Should take no more than 2 minutes to check your key offline & securely.
 
 ## Using the tool
 
@@ -16,9 +16,10 @@ Simple tool to verify your EOS key and find out the public key. This was request
 ### Important info
 
 - Contributions / any bug fixes are welcome. 
-- All code is available for review and run offline. 
+- All code is available for review and runs offline. 
+- You just need your browser and do not have to install any software on your computer
 - No guarantees or accuracy on using this tool.
-- Maintained by [Webdigi in London](https://www.webdigi.co.uk)
+- Maintained by [Webdigi in London](https://www.webdigi.co.uk) & [EOS Block producer candidate - EOS Authority](https://eosauthority.com)
 
 ### Test EOS public & private keys
 **Public key**: EOS8HuvjfQeUS7tMdHPPrkTFMnEP7nr6oivvuJyNcvW9Sx5MxJSkZ
