@@ -8,7 +8,7 @@ Simple tool to verify your EOS key and find out the public key. This was request
 [![Offline EOS private key tool](https://i.imgur.com/uv59i9G.png)](https://i.imgur.com/uv59i9G.png)
 2) Extract the zip file
 3) Turn your computer offline
-4) Open index.html on any browser. It will look like the screenshot below 
+4) Open index.html on any browser (preferably incognito mode or private browsing). It will look like the screenshot below 
 [![Offline EOS private key tool](https://i.imgur.com/WwniEpW.png)](https://i.imgur.com/WwniEpW.png)
 5) Enter your private key and click "Map to EOS public key"
 6) Verify your private & public key. Close this page and resume internet connection.
